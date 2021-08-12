@@ -21,30 +21,43 @@
 //     var m = date.getMinutes(); // 0 - 59
 //     var s = date.getSeconds(); // 0 - 59
 //     var session = "AM";
-    
+
 //     if(h == 0){
 //         h = 12;
 //     }
-    
+
 //     if(h > 12){
 //         h = h - 12;
 //         session = "PM";
 //     }
-    
+
 //     h = (h < 10) ? "0" + h : h;
 //     m = (m < 10) ? "0" + m : m;
 //     s = (s < 10) ? "0" + s : s;
-    
+
 //     var time = h + ":" + m + ":" + s + " " + session;
 //     document.getElementById("MyClockDisplay").innerText = time;
 //     document.getElementById("MyClockDisplay").textContent = time;
-    
+
 //     setTimeout(showTime, 1000);
-    
+
 // }
 
 // showTime();
 
 
-var ran=Math.random();
-console.log(ran);
+// var ran=Math.random();
+// let ran = 0;
+
+// for (i = 0; i < 10; i++) {
+//     console.log(ran);
+// }
+
+let mystrin=["Dudz","Majid",1,2,null,true];
+console.log(mystrin);
+console.log(mystrin.length);
+// console.log(mystrin.replace("I'm","I am"));
+mystrin.pop();
+console.log(mystrin.length);
+console.log(mystrin);
+
