@@ -47,17 +47,32 @@
 
 
 // var ran=Math.random();
+// console.log(ran);
 // let ran = 0;
 
 // for (i = 0; i < 10; i++) {
 //     console.log(ran);
 // }
 
-let mystrin=["Dudz","Majid",1,2,null,true];
-console.log(mystrin);
-console.log(mystrin.length);
-// console.log(mystrin.replace("I'm","I am"));
-mystrin.pop();
-console.log(mystrin.length);
-console.log(mystrin);
+let mystrin = ["Dudz", "Majid", 1, 2, null, true];
+// console.log(mystrin);
+// console.log(mystrin.length);
+// // console.log(mystrin.replace("I'm","I am"));
+// mystrin.pop();
+// console.log(mystrin.length);
+// console.log(mystrin);
+// mystrin.push("another one");
+// console.log(mystrin);
 
+// function avg(a, b) {
+//     return (a + b)/2;
+// }
+// c=avg(10,20)
+
+// console.log(c);
+let arr=[1,2,3,4,5,6,7,8,9]
+// console.log(arr[0]+10);
+for(i=0;i<9;i++){
+    console.log(arr[0]+10);
+    i++;
+}
