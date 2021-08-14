@@ -69,10 +69,12 @@ let mystrin = ["Dudz", "Majid", 1, 2, null, true];
 // }
 // c=avg(10,20)
 
-// console.log(c);
-let arr=[1,2,3,4,5,6,7,8,9]
-// console.log(arr[0]+10);
-for(i=0;i<9;i++){
-    console.log(arr[0]+10);
-    i++;
-}
+// // console.log(c);
+// let arr=[1,2,3,4,5,6,7,8,9]
+// // console.log(arr[0]+10);
+// for(i=0;i<9;i++){
+//     console.log(arr[0]);
+//     i++;
+// }
+// console.log(arr);
+
